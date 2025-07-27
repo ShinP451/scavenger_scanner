@@ -47,7 +47,7 @@ Both scanners search systems for known IOCs of the CVE-2025-54313 supply chain a
 
 1. Download the PowerShell script:
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/[your-repo]/CVE-2025-54313-Scanner.ps1" -OutFile "CVE-2025-54313-Scanner.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/scavenger_scanner/CVE-2025-54313-Scanner.ps1" -OutFile "CVE-2025-54313-Scanner.ps1"
 ```
 
 2. Unblock the script:
@@ -64,7 +64,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 1. Download the bash script:
 ```bash
-curl -O https://raw.githubusercontent.com/[your-repo]/CVE-2025-54313-Scanner.sh
+curl -O https://raw.githubusercontent.com/scavenger_scanner/CVE-2025-54313-Scanner.sh
 ```
 
 2. Make it executable:
